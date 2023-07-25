@@ -326,13 +326,18 @@
             {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-gap: 2em;
-                margin-bottom: 4em;
+                grid-gap: 1em;
+                place-items: center;
             }
 
             .photos img
             {
-                width: 90%;
+                width: 95%;
+            }
+
+            .video_head
+            {
+                margin-top: 3em;
             }
 
 
@@ -511,6 +516,11 @@
                 .video iframe
                 {
                     height: 70vh;
+                }
+
+                .photos
+                {
+                    grid-gap: 2em;
                 }
 
             }
